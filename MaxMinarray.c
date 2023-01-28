@@ -35,7 +35,7 @@ int MAX_ARRAY(int arr[], size_t lenarray){ //function for calculate the MAX elem
 
 	INITIAL:
 
-     for(int i = 1; i < lenarray; i++){
+        for(int i = 1; i < lenarray; i++){
 
 	  if(arr[k] < arr[i]){
 			
@@ -64,7 +64,7 @@ int MIN_ARRAY(int arr[], size_t lenarray){ //Same function, with a little differ
 
 	INITIAL:
 
-     for(int i = 1; i < lenarray; i++){
+        for(int i = 1; i < lenarray; i++){
 
 	  if(arr[k] > arr[i]){
 			
